@@ -48,6 +48,15 @@
                         Dolar.CalcularValorDolar();
                         break;
                     case 7:
+                        Senha.ValidarSenha();
+                        break;
+                    case 8:
+                        CPF.ValidarCPF();
+                        break;
+                    case 9:
+                        ContadorPalavras.ContarPalavras();
+                        break;
+                    case 10:
                         sair = true;
                         break;
                 }

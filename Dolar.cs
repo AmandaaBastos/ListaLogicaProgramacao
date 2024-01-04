@@ -32,7 +32,7 @@ namespace ListaLogicaProgramacao
                 Console.WriteLine("Por favor insira um número válido!\n(Apenas números)");
                 throw;
             }
-            double resultado = valorReal / valorDolar;
+            double resultado = valorReal * valorDolar;
             Console.WriteLine($"O valor de {valorReal} em dólares é: {Math.Round(resultado, 2)}\nObs:Aproximação de duas casas decimais!") ;
         }
     }
